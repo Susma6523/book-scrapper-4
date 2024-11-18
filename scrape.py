@@ -3,9 +3,26 @@
 #python3 -m pip install beautifulsoup4
 #=> parse html
 
+#Git tutorial
+#git config--global user.name "susma shrestha"
+#git config --gobal user.email "susmastha4@"
+#git init
+#git status => if you want to check what are the changes
+# git diff => if you want to check what are the changes
+#git add .
+#git commit -m "your message"
+#copy paste git from github
 
-import requests
+
+###################
+#1. change the code
+#2. git add.
+##git commit -m "your message"
+# git push origin
+
 import sqlite3
+import requests
+
 
 from bs4 import BeautifulSoup
 
